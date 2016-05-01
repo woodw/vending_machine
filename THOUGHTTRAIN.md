@@ -17,3 +17,15 @@ Exact change...
 2 Todo: Figure out how much money a vending machine starts the day with...
 Or what I could do for fun is start the user session with a random number of each type of coin so that it emulates a random vending machine encounter instead of a fresh machine.
 *? Mwa hahahaha I hold the POWER so I think the Sacagawea dollar will be accepted*
+
+I am making a vending machine test file. the tricky part is figuring out what actions are fully on the client vs whats on the server.
+* I will push a button - client - I dont think that I care about validating the pushed button.
+* Once the... 4 buttons are pressed I will send a request about these 4 values. - server - The server should accept 4 digits and determine what the next action is
+* If the digits correlate to an item I need to determine if the item is there. - server
+* If the item is there then I need to see the price of the item - server
+* Determine the course of action that needs to happen based on the price inserted - server
+**? When someone enters coins do I need to store this information server side ... initial thoughts is no*
+
+I think those are the first thoughts I will care about and then there will be a seperate coin validation test.
+[{'size':1,'weight':1},{'size':2,'weight':2}]
+I need an enum of size weights on the coin object 
