@@ -32,3 +32,7 @@ I need an enum of size weights on the coin object
 
 # And my brian takes over
 I know it says coins... but how fun would it be to design this for hyrule? :-)
+
+Working on the vending machine test I need to make sure that it contains rupees which means that I need to make rupees before I make the vending machine. So I will now have to turn my focus onto rupees.
+
+A thing to note is the instructions talk about determining currency by size and weight. I will play loose with the fact that they are two variables which are uniuqe between coins. I will use size and color and pretend that my vending machine has a method of determining color.
