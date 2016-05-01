@@ -1,0 +1,34 @@
+{
+  "name": "vending_machine",
+  "version": "0.0.1",
+  "description": "Suggested by Steven Turley as a way for me to compare my development style to other individuals; This will be a project based on \"Pillar Technology's\" Kata excersice: Vending Machine.",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "start": "node app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodw/vending_machine.git"
+  },
+  "keywords": [
+    "node",
+    "kata",
+    "mocha",
+    "angularjs"
+  ],
+  "author": "William Wood",
+  "license": "ISC",
+  "dev-dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  },
+  "bugs": {
+    "url": "https://github.com/woodw/vending_machine/issues"
+  },
+  "homepage": "https://github.com/woodw/vending_machine#readme"
+}
