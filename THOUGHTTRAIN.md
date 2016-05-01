@@ -29,3 +29,6 @@ I am making a vending machine test file. the tricky part is figuring out what ac
 I think those are the first thoughts I will care about and then there will be a seperate coin validation test.
 [{'size':1,'weight':1},{'size':2,'weight':2}]
 I need an enum of size weights on the coin object 
+
+# And my brian takes over
+I know it says coins... but how fun would it be to design this for hyrule? :-)
